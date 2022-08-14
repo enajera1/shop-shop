@@ -9,7 +9,7 @@ import spinner from '../../assets/spinner.gif';
 // indexedDB
 import { idbPromise } from '../../utils/helpers';
 
-function ProductList({ }) {
+function ProductList() {
   const [state, dispatch] = useStoreContext();
 
   const { currentCategory } = state;

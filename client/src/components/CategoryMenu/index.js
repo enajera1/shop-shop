@@ -6,7 +6,7 @@ import { useStoreContext } from "../../utils/GlobalState";
 // IndexedDB
 import { idbPromise } from '../../utils/helpers'
 
-function CategoryMenu({}) {
+function CategoryMenu() {
   const [state, dispatch] = useStoreContext();
 
   const { categories } = state;
