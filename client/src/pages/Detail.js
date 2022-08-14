@@ -104,8 +104,8 @@ function Detail() {
               disabled={!cart.find(p => p._id === currentProduct._id)} 
               onClick={removeFromCart}
             >
-  Remove from Cart
-</button>
+              Remove from Cart
+            </button>
           </p>
 
           <img
